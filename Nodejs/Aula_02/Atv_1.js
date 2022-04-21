@@ -19,7 +19,7 @@ const nome = "Jonas"
 const idade = 44
 
 // descobrir se tem maioridade
-const maiordeidade = idade >= 18;
+const maiordeidade = idade >= 18
 
 
 // imprimir nome, idade e maioridade
