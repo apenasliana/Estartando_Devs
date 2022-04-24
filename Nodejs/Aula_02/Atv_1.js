@@ -19,12 +19,12 @@ const nome = "Jonas"
 const idade = 44
 
 // descobrir se tem maioridade
-const maiordeidade = idade >= 18
+const maiorDeIdade = idade >= 18
 
 
 // imprimir nome, idade e maioridade
-if(maiordeidade){
-	console.log("| Nome:", nome, "| Idade:", idade, "| Maior de idade. |")
+if(maiorDeIdade){
+	console.log("| Nome:", nome, "| Idade:", idade, "anos", "| Maior de idade. |")
 }else{
-	console.log("| Nome:", nome, "| Idade:", idade, "| Menor de idade. |")
+	console.log("| Nome:", nome, "| Idade:", idade, "anos", "| Menor de idade. |")
 }

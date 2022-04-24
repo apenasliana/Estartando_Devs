@@ -17,11 +17,14 @@
 //console.log("Insira o nome do aluno: ")
 const nomeAluno = "Jonas"
 //console.log("Insira as notas do aluno")
-const notasAluno = [4, 1 ,9]
-
+const notasAluno = [4, 10 ,9 , 6]
+let SomaDasNotas = 0
 
 // calcular a media do aluno
-const media = (notasAluno[0]+notasAluno[1]+notasAluno[2])/3
+for (let i = 0; i < notasAluno.length; i++) {
+	SomaDasNotas += notasAluno[i]
+}
+const media = (SomaDasNotas/notasAluno.length).toFixed(2)
 
 
 // calcular se o aluno foi aprovado

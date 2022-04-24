@@ -24,7 +24,7 @@ const salario = 123123
 
 
 //Calculo do novo salario (aumento de 18%)
-const novoSalario = salario + (salario *0.18)
+const novoSalario = (salario + (salario *0.18)).toFixed(2)
 
 // descobrir se precisa pagar imposto
 const declararImposto = novoSalario > 3000
@@ -32,7 +32,7 @@ const declararImposto = novoSalario > 3000
 
 //Imprimir nome, novoSalario e se precisa declarar ou não imposto
 if(declararImposto){
-	console.log("| Nome:", nome, "| Novo salario: ", novoSalario, "| Declarar Imposto |")
+	console.log("| Nome:", nome, "| Novo salario: R$", novoSalario, "| Declarar Imposto |")
 }else{
-	console.log("| Nome:", nome, "| Novo salario: ", novoSalario,"| Não declarar imposto |")
+	console.log("| Nome:", nome, "| Novo salario: R$", novoSalario,"| Não declarar imposto |")
 }
