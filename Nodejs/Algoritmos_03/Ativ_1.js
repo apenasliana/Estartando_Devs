@@ -44,5 +44,5 @@ const studentsAverage = students.map(getAverage)
 studentsAverage.forEach(student => {
   console.log(`${student.name} teve média ${student.average}.`)
 })
-console.log(studentsAverage) // Objeto com as médias dos estudantes
+//console.log(studentsAverage) // Objeto com as médias dos estudantes
 
