@@ -1,0 +1,27 @@
+{
+  "name": "apenasliana",
+  "version": "1.0.4",
+  "description": "Liana Meneghini's dev business card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"poggers\" "
+  },
+  "bin": {
+    "apenasliana": "bin.js"
+  },
+  "keywords": [
+    "Liana Meneghini",
+    "apenasliana",
+    "lirghini",
+    "devCard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apenasliana/npx-card"
+  },
+  "author": "Liana Meneghini <lianarghini@gmail.com> ",
+  "license": "ISC",
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  }
+}
